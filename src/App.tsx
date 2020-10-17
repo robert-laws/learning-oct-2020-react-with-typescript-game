@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import QuestionsCard from './components/QuestionsCard';
 import { fetchQuizQuestions, Difficulty, QuestionState } from './API';
 
-type AnswerObject = {
+export type AnswerObject = {
   question: string;
   answer: string;
   correct: boolean;
